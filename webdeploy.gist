@@ -1,0 +1,16 @@
+
+
+
+ minikube start 
+ minikube status
+ 
+ minikube dashboard --url
+ minikube ip
+
+ minikube tunnel
+
+
+ kubectl port-forward service/webdeploy-service 9090:9090
+
+sysctl -w net.ipv4.conf.all.route_localnet=1
+iptables -t nat -I PREROUTING -p tcp --dport 80 -j DNAT --to 127.0.0.1:8080
