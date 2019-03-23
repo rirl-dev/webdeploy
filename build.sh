@@ -3,7 +3,7 @@
 # Unit testing prior to publishing container to Docker hub (see publish.sh)
 # See runner.sh to run the container local.
 # See validate.sh to test version deployed by container (see testapp/version.txt).
-export WEBDEPLOY_VERSION=v2
+export WEBDEPLOY_VERSION=v3
 echo "[$0]:: Begin [$*]"
 status=0
 
