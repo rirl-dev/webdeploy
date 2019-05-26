@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: webdeploy-service
 spec:
+  #
   # RiRL -- Per the solution design, using minkiube: by design cluster will have LB (if you run minikube tunnel)
   # if your cluster supports it, uncomment the following to automatically create
   # an external load-balanced IP for the frontend service.
