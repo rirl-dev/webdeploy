@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+!/usr/bin/env bash
 # Scripts to exercise the webdeploy-service in various ways after its  deployed (deploy.sh)
 
 clear
