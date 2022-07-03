@@ -8,6 +8,7 @@ WEBDEPLOY_VERSION_EXPECTED="1.0"
 
 WEBDEPLOY_PORT=9090
 WEBDEPLOY_URL="http://$(hostname):${WEBDEPLOY_PORT}/version.txt"
+WEBDEPLOY_URL="http://192.168.56.201:${WEBDEPLOY_PORT}/version.txt"
 
 status=0
 

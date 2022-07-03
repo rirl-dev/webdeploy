@@ -12,7 +12,7 @@ echo "[$0]:: Begin [$*]"
 status=0
 
 echo "[$0]:: Creating K8S deployment..."
-set -x;  kubectl create -f ./k8s/webdeploy-deployment.yaml; status=$?; set +x
+set -x;  kubectl create --v=9 -f ./k8s/webdeploy-deployment.yaml; status=$?; set +x
 if [ $status -ne 0 ] ; then
   echo "[$0]:: FAILED K8S deployment..."
   exit $status
